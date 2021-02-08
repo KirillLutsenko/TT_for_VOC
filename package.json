@@ -1,6 +1,6 @@
 {
-  "name": "React_Template",
-   "homepage": "https://myusername.github.io/my-app",
+  "name": "TT_for_VOC",
+  "homepage": "https://myusername.github.io/my-app",
   "version": "0.1.0",
   "keywords": [],
   "author": "KirillLucenko",
@@ -8,9 +8,11 @@
   "dependencies": {
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.2",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@mate-academy/eslint-config-react": "*",
