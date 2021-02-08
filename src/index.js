@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import { WrappedMainComponent } from './App';
-import { rootReducer } from './components/Store/reducers';
-
-export const store = createStore(rootReducer);
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './App';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <WrappedMainComponent />
-  </Provider>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+  ,
   document.getElementById('root'),
 );

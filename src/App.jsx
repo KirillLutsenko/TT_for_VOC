@@ -1,56 +1,34 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { changeFirstName, changeSecondName } from './components/Store/actions';
+import { Route } from 'react-router-dom';
+import { Account } from './components/Account';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Login } from './components/Login';
+import { CurrentDeals } from './components/CurrentDeals';
+import { Deal } from './components/Deal';
+// import currentDeals from './api/data.json';
+import './styles/general.scss';
 
-const putStateToProps = state => ({
-  firstName: state.firstName,
-  secondName: state.secondName,
-});
+export const App = () => (
+  <div className="app">
+    <Header />
 
-const putActionsToProps = dispatch => ({
-  changeFirstName: bindActionCreators(changeFirstName, dispatch),
-  changeSecondName: bindActionCreators(changeSecondName, dispatch),
-});
+    <Route path="/login">
+      <Login />
+    </Route>
 
-export class App extends React.PureComponent {
-  render() {
-    const {
-      firstName,
-      secondName,
-      changeFirstName,
-      changeSecondName,
-    } = this.props;
+    <Route path="/account">
+      <Account />
+    </Route>
 
-    return (
-      <div>
-        <div>
-          <input
-            type="text"
-            value={firstName}
-            placeholder="First Name"
-            onChange={(event) => {
-              changeFirstName(event.target.value);
-            }}
-          />
-        </div>
-        <div>
-          <input
-            type="text"
-            value={secondName}
-            placeholder="Second Name"
-            onChange={(event) => {
-              changeSecondName(event.target.value);
-            }}
-          />
-        </div>
-        <button type="button">Log In</button>
-      </div>
-    );
-  }
-}
+    <Route path="/current-deals">
+      <CurrentDeals />
+    </Route>
 
-export const WrappedMainComponent = connect(
-  putStateToProps,
-  putActionsToProps,
-)(App);
+    <Route path="/deal">
+      <Deal />
+    </Route>
+
+    <Footer />
+  </div>
+);
