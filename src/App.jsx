@@ -54,9 +54,9 @@ export const App = () => {
 
         <Redirect path="/current-deals" to="/" />
 
-        <p className="app__empty-page">
+        {/* <p className="app__empty-page">
           Not found page
-        </p>
+        </p> */}
       </Switch>
 
       <Footer />
