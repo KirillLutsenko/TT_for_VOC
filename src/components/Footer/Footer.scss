@@ -1,1 +1,83 @@
-//go style here
+@import "../../styles/vars.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 174px;
+  color: #fff;
+  background: $footer-header-background-color;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 115px 0 0;
+    width: 272px;
+    height: 101px;
+  }
+}
+
+.footer-info {
+  width: 491px;
+  height: 124px;
+
+  &__portfolio {
+    display: block;
+    margin: 16px 0 37px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+
+  &__title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  &__footer-logo {
+    margin: 10px 34px 37px 3px;
+    width: 147px;
+    height: 27px;
+    background: url("../../images/footer/footer-logo.png");
+  }
+
+  &__description-section {
+    margin-left: 3px;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 14px;
+    color: #858ba5;
+  }
+
+  &__license-and-adress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+}
+
+.product,
+.about {
+  &__title {
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &__item {
+    margin-bottom: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #858ba5;
+    transition: $link-transition;
+    cursor: pointer;
+
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}

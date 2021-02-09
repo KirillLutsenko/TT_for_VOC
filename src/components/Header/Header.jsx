@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Header.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Header = () => (
   <header className="app__header header">
@@ -10,38 +10,44 @@ export const Header = () => (
 
       <ul className="nav__header-list header-list">
         <li className="header-list__header-item header-item">
-          <Link
+          <NavLink
             className="header-item__link"
-            to="/current-deals"
+            to="/"
+            exact
+            activeClassName="is-active"
           >
             Current Deals
-          </Link>
+          </NavLink>
         </li>
 
         <li className="header-list__header-item header-item">
-          <a
+          <NavLink
             className="header-item__link"
+            to="/marketplace"
+            activeClassName="is-active"
           >
             Marketplace
-          </a>
+          </NavLink>
         </li>
 
         <li className="header-list__header-item header-item">
-          <a
-            href=""
+          <NavLink
             className="header-item__link"
+            to="/order"
+            activeClassName="is-active"
           >
             Order
-          </a>
+          </NavLink>
         </li>
 
         <li className="header-list__header-item header-item">
-          <a
-            href=""
+          <NavLink
             className="header-item__link"
+            to="/sale-shares"
+            activeClassName="is-active"
           >
             Sale Shares
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
@@ -54,9 +60,8 @@ export const Header = () => (
           Join
         </Link>
       </div>
-      <button
+      <div
         className="authorization__login login"
-        type="button"
       >
         <Link
           to="/login"
@@ -64,7 +69,7 @@ export const Header = () => (
         >
           Login
         </Link>
-      </button>
+      </div>
     </div>
   </header>
 );

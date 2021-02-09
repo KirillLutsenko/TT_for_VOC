@@ -1,1 +1,17 @@
-//go style here
+@import "./styles/vars.scss";
+
+.app {
+  &__header {
+    padding: $large-page-padding;
+  }
+
+  &__footer {
+    padding: $large-page-padding;
+  }
+
+  &__empty-page {
+    height: $height-for-small-pages;
+    line-height: $height-for-small-pages;
+    text-align: center;
+  }
+}

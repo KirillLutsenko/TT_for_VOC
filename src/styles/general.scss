@@ -1,3 +1,5 @@
+@import "./vars.scss";
+
 *,
 *:before,
 *:after {
@@ -10,7 +12,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 18.75px;
   color: #747474;
 }
 
@@ -38,7 +40,7 @@ li {
   padding: 0;
 }
 
-li,
+a,
 button {
   cursor: pointer;
 }
@@ -46,4 +48,9 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+  transition: $link-transition;
+
+  &:hover {
+    color: $link-hover-color;
+  }
 }

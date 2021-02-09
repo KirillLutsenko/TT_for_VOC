@@ -1,1 +1,55 @@
-//go style here
+@import "../../styles/vars.scss";
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: $height-for-small-pages;
+  justify-content: center;
+  width: 300px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: $main-color;
+}
+
+.input {
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #747474;
+  margin: 8px 0 17px;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid $main-color;
+  }
+
+  &__error {
+    border-bottom: 1px solid #f90000;
+  }
+}
+
+.login-button {
+  margin-top: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+  height: 30px;
+  background: $button-background-color;
+  color: #fff;
+  border-radius: 3px;
+  transition: $button-transition;
+
+  &:hover {
+    color: #fff;
+    box-shadow: $box-shadow-hover-buttons;
+  }
+}
+
+.form__error {
+  margin-top: -18px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f90000;
+}
