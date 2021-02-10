@@ -1,15 +1,19 @@
 $buttons-and-active-color: #188aae;
 $main-color: #0c174b;
+$main-text-color: #747474;
 $footer-header-background-color: linear-gradient(
   180deg, #0c174b 0%, #081440 100%);
 $link-hover-color: #ae8a4d;
 $button-background-color: linear-gradient(180deg, #20a0c9 0%, #188aae 100%);
 
 $link-transition: color 0.2s ease;
-$button-transition: box-shadow 0.2s ease;
+$button-transition: box-shadow 0.3s ease;
+$transition-all: all 0.2s ease;
 $height-for-small-pages: 71vh;
 $box-shadow-hover-buttons: 0 1px 4px rgba(0, 0, 0, 0.3),
   -23px 0 20px -23px rgba(0, 0, 0, 0.8),
   23px 0 20px -23px rgba(0, 0, 0, 0.8),
   0 0 40px rgba(0, 0, 0, 0.1) inset;
+
 $large-page-padding: 0 calc(50% - 600px);
+$card-width: 285px;

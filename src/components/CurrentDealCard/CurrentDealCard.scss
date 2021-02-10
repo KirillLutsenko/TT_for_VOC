@@ -1,0 +1,108 @@
+@import "../../styles/vars.scss";
+
+.card {
+  margin: 0 70px 35px 0;
+  width: $card-width;
+  height: 464px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14.06px;
+  transition: $button-transition;
+
+  &__card-header {
+    background-color: $main-color;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__image {
+    position: relative;
+    height: 175px;
+    background: url("../../images/card/card-img.png") no-repeat;
+  }
+
+  &:hover {
+    box-shadow: $box-shadow-hover-buttons;
+    cursor: pointer;
+  }
+}
+
+.card-header {
+  &__title {
+    position: relative;
+    text-align: center;
+    padding: 16px 0 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+
+    &::before {
+      content: url("../../images/card/house-icon.png");
+      position: absolute;
+      left: 20px;
+    }
+  }
+
+  &__shares {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    padding: 0 0 8px 20px;
+  }
+}
+
+.shareholder-block {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: $card-width;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, 
+  rgba(0, 0, 0, 0.8) 99.99%,
+  rgba(0, 0, 0, 0.75) 100%);
+  
+
+  &__info {
+    position: absolute;
+    bottom: -132px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75;
+    color: #fff;
+  }
+}
+
+.card-info {
+  margin: 25px 20px;
+
+  &__card-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+  }
+}
+
+.card-button {
+  display: block;
+  width: 160px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: $button-background-color;
+  color: #fff;
+  border-radius: 3px;
+  transition: $button-transition;
+
+  &:hover {
+    color: #fff;
+    box-shadow: $box-shadow-hover-buttons;
+  }
+}

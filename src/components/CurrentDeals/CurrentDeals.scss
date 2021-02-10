@@ -1,1 +1,44 @@
-//go style here
+@import "../../styles/vars.scss";
+
+.current-deals {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px calc(50% - 498px) 46px;
+
+  &:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+
+.current-deals .card:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.show-more {
+  display: block;
+  position: relative;
+  margin: 0 auto 75px;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  color: $main-text-color;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.09px;
+  transition: all 0.2s ease;
+
+  &:before {
+    content: url("../../images/current_deals/show-more.png");
+    position: absolute;
+    right: 105px;
+    bottom: -4px;
+  }
+
+  &:hover {
+    color: #242e61;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

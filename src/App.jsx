@@ -6,61 +6,59 @@ import { Header } from './components/Header';
 import { Login } from './components/Login';
 import { CurrentDeals } from './components/CurrentDeals';
 import { Deal } from './components/Deal';
-// import currentDeals from './api/data.json';
+import { deals } from './api/current-deals';
 import './styles/general.scss';
 import './App.scss';
 
-export const App = () => {
-  return (
-    <div className="app">
-      <Header />
+export const App = () => (
+  <div className="app">
+    <Header />
 
-      <Switch>
-        <Route
-          path="/login"
-        >
-          <Login />
-        </Route>
+    <Switch>
+      <Route
+        path="/login"
+      >
+        <Login />
+      </Route>
 
-        <Route path="/account">
-          <Account />
-        </Route>
+      <Route path="/account">
+        <Account />
+      </Route>
 
-        <Route path="/marketplace">
-          <p className="app__empty-page">
-            Marketplace under development
-          </p>
-        </Route>
-
-        <Route path="/order">
-          <p className="app__empty-page">
-            Order page under development
-          </p>
-        </Route>
-
-        <Route path="/sale-shares">
-          <p className="app__empty-page">
-            No Sale Shares yet
-          </p>
-        </Route>
-
-        <Route path="/deal">
-          <Deal />
-        </Route>
-
-        <Route path="/" exact>
-          <CurrentDeals />
-        </Route>
-
-        <Redirect path="/current-deals" to="/" />
-        <Redirect path="" to="/" />
-
+      <Route path="/marketplace">
         <p className="app__empty-page">
-          Not found page
+          Marketplace under development
         </p>
-      </Switch>
+      </Route>
 
-      <Footer />
-    </div>
-  );
-};
+      <Route path="/order">
+        <p className="app__empty-page">
+          Order page under development
+        </p>
+      </Route>
+
+      <Route path="/sale-shares">
+        <p className="app__empty-page">
+          No Sale Shares yet
+        </p>
+      </Route>
+
+      <Route path="/deal">
+        <Deal />
+      </Route>
+
+      <Route path="/" exact>
+        <CurrentDeals deals={deals} />
+      </Route>
+
+      <Redirect path="/current-deals" to="/" />
+      <Redirect path="" to="/" />
+
+      <p className="app__empty-page">
+        Not found page
+      </p>
+    </Switch>
+
+    <Footer />
+  </div>
+);
