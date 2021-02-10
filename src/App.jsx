@@ -53,10 +53,11 @@ export const App = () => {
         </Route>
 
         <Redirect path="/current-deals" to="/" />
+        <Redirect path="" to="/" />
 
-        {/* <p className="app__empty-page">
+        <p className="app__empty-page">
           Not found page
-        </p> */}
+        </p>
       </Switch>
 
       <Footer />
