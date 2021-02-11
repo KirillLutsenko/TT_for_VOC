@@ -1,5 +1,125 @@
 @import "../../styles/vars.scss";
 
 .deal {
-  height: 150vh;
+  padding: $large-page-padding;
+  height: 100%;
+
+  &__deal-menu {
+    display: flex;
+    margin-top: 86px;
+  }
+
+  &__bottom-section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.deal-info {
+  width: 387px;
+  height: 390px;
+  text-align: center;
+  
+  &__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: $title-color;
+    margin-bottom: 27px;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 18.75px;
+    margin-bottom: 40px;
+  }
+}
+
+.more-details {
+  width: 380px;
+  height: 50px;
+  text-align: center;
+  line-height: 18.75px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  background: $button-background-color;
+  color: #fff;
+  border-radius: 3px;
+  transition: $button-transition;
+
+  &:hover {
+    color: #fff;
+    box-shadow: $box-shadow-hover-buttons;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: $box-shadow-hover-buttons;
+  }
+}
+
+.bottom-section {
+  margin-bottom: 113px;
+  &__bottom-info {
+    margin-top: 35px;
+    width: 792px;
+    height: 352px;
+  }
+}
+
+.bottom-info {
+  &__title {
+    position: relative;
+    margin: 16px 0 39px 74px;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: $title-color;
+  }
+
+  &__text {
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__paragraph {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  margin: 125px 0 0 56px;
+  width: 387px;
+  height: 260px;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  &__card-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 19px;
+  }
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+  }
+}
+
+.first-item {
+  margin-top: 25px;
 }

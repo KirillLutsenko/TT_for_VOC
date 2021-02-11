@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import classNames from 'classnames';
+import classnames from 'classnames';
 import './Login.scss';
 
 export const Login = () => {
@@ -56,7 +56,7 @@ export const Login = () => {
       <label htmlFor="login">Login</label>
       <input
         type="text"
-        className={classNames(
+        className={classnames(
           'login-page__login-input input', {
             'input input__error': loginError,
           },
@@ -76,7 +76,7 @@ export const Login = () => {
       <label htmlFor="password">Password</label>
       <input
         type="password"
-        className={classNames(
+        className={classnames(
           'login-page__password-input input', {
             'input input__error': passwordError,
           },

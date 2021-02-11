@@ -2,8 +2,9 @@
 
 export const deals = [
   {
-    dealId: '1',
+    id: '1',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -11,6 +12,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -43,8 +67,9 @@ export const deals = [
     },
   },
   {
-    dealId: '2',
+    id: '2',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -52,6 +77,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/a97d9b5e/21848505/720x510.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/79d09f42/21848502/720x510.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/246e6c99/21848498/720x510.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/9ffc12b1/21848495/720x510.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -84,8 +132,9 @@ export const deals = [
     },
   },
   {
-    dealId: '3',
+    id: '3',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -93,6 +142,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/17ec07db/22272578/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/c6610c1d/22272576/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/9cdabf0a/22272579/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -125,8 +197,9 @@ export const deals = [
     },
   },
   {
-    dealId: '4',
+    id: '4',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -134,6 +207,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -166,8 +262,9 @@ export const deals = [
     },
   },
   {
-    dealId: '5',
+    id: '5',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -175,6 +272,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -207,8 +327,9 @@ export const deals = [
     },
   },
   {
-    dealId: '6',
+    id: '6',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -216,6 +337,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -248,8 +392,9 @@ export const deals = [
     },
   },
   {
-    dealId: '7',
+    id: '7',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -257,6 +402,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -289,8 +457,9 @@ export const deals = [
     },
   },
   {
-    dealId: '8',
+    id: '8',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -298,6 +467,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -330,8 +522,9 @@ export const deals = [
     },
   },
   {
-    dealId: '9',
+    id: '9',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -339,6 +532,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -371,8 +587,9 @@ export const deals = [
     },
   },
   {
-    dealId: '10',
+    id: '10',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -380,6 +597,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -412,8 +652,9 @@ export const deals = [
     },
   },
   {
-    dealId: '11',
+    id: '11',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -421,6 +662,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -453,8 +717,9 @@ export const deals = [
     },
   },
   {
-    dealId: '12',
+    id: '12',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -462,6 +727,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -494,8 +782,9 @@ export const deals = [
     },
   },
   {
-    dealId: '13',
+    id: '13',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -503,6 +792,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -535,8 +847,9 @@ export const deals = [
     },
   },
   {
-    dealId: '14',
+    id: '14',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -544,6 +857,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -576,8 +912,9 @@ export const deals = [
     },
   },
   {
-    dealId: '15',
+    id: '15',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -585,6 +922,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',
@@ -617,8 +977,9 @@ export const deals = [
     },
   },
   {
-    dealId: '16',
+    id: '16',
     mainTitle: 'Castille et Carillon',
+    name: 'Schroder Blended Portfolio - 2019',
     availableShares: '187',
     shareholder: 'Feldman Equities',
     targetedInvestorIrr: '16.7%',
@@ -626,6 +987,29 @@ export const deals = [
     targetedAvarageCashYield: '10.5%',
     distributionCommencement: '$25,000',
     distributionPeriod: '8 years',
+    targetPortfolioCloseDate: 'August 16th, 2019',
+    images: [
+      {
+        id: '1',
+        description: 'First slide',
+        url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
+      },
+      {
+        id: '2',
+        description: 'Second slide',
+        url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
+      },
+      {
+        id: '3',
+        description: 'Third slide',
+        url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
+      },
+      {
+        id: '4',
+        description: 'Fourth slide',
+        url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
+      },
+    ],
     dealInfo: {
       dealTitle: 'Ariston Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ',

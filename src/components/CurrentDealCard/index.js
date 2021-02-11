@@ -1,1 +1,1 @@
-export * from './CurrentDeaCardl';
+export * from './CurrentDeaCard';

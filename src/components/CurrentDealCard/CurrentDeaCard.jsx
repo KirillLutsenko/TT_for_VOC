@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import './CurrentDealCard.scss';
 import { CurrentDealType } from '../../Types';
 
-export const CurrentDeal = ({
+export const CurrentDealCard = ({
+  id,
   mainTitle,
   availableShares,
   shareholder,
@@ -33,7 +34,7 @@ export const CurrentDeal = ({
     </div>
 
     <div className="card__card-info card-info">
-      <div className="card-info__card-item">
+      <div className="card-info__card-item card-item">
         <span className="card-item__title">
           Targeted Investor IRR
         </span>
@@ -42,7 +43,7 @@ export const CurrentDeal = ({
         </b>
       </div>
 
-      <div className="card-info__card-item">
+      <div className="card-info__card-item card-item">
         <span className="card-item__title">
           Targeted Equity Multiple
         </span>
@@ -51,7 +52,7 @@ export const CurrentDeal = ({
         </b>
       </div>
 
-      <div className="card-info__card-item">
+      <div className="card-info__card-item card-item">
         <span className="card-item__title">
           Targeted Avarage Cash Yield
         </span>
@@ -60,7 +61,7 @@ export const CurrentDeal = ({
         </b>
       </div>
 
-      <div className="card-info__card-item">
+      <div className="card-info__card-item card-item">
         <span className="card-item__title">
           Distribution Commencement
         </span>
@@ -69,7 +70,7 @@ export const CurrentDeal = ({
         </b>
       </div>
 
-      <div className="card-info__card-item">
+      <div className="card-info__card-item card-item">
         <span className="card-item__title">
           Distribution Period
         </span>
@@ -81,11 +82,11 @@ export const CurrentDeal = ({
 
     <Link
       className="card__card-button card-button"
-      to="/deal"
+      to={`/current-deals/${id}`}
     >
       Trade now
     </Link>
   </li>
 );
 
-CurrentDeal.propTypes = CurrentDealType;
+CurrentDealCard.propTypes = CurrentDealType;

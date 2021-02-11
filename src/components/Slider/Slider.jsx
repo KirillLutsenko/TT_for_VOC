@@ -1,53 +1,46 @@
 import React, { useState, useEffect } from 'react';
-import firstSlide from '../../images/slider-photos/photo_1.jpg';
-import secondSlide from '../../images/slider-photos/photo_2.jpg';
-import thirdSlide from '../../images/slider-photos/photo_3.jpg';
+import { Arrows } from './Arrows';
+import { Dots } from './Dots';
+import { Slides } from './Slides';
+import { SliderType } from '../../Types';
 import './Slider.scss';
 
-const slides = [
-  <img key={firstSlide} src={firstSlide} alt="first slide" />,
-  <img key={secondSlide} src={secondSlide} alt="second slide" />,
-  <img key={thirdSlide} src={thirdSlide} alt="third slide" />,
-];
-
-export const Slider = () => {
+export const Slider = ({ deal }) => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const slides = deal.images;
+  const length = slides.length - 1;
 
   useEffect(() => {
-    setInterval(() => {
-      setActiveIndex(current => (
-        current === slides.length - 1 ? 0 : current + 1
-      ));
-    }, 3000);
+    const interval = setInterval(() => {
+      setActiveIndex(activeIndex === length ? 0 : activeIndex + 1);
+    }, 5000);
 
-    return () => clearInterval();
-  }, []);
-
-  const prevSlideIndex = activeIndex ? activeIndex - 1 : slides.length - 1;
-  const nextSlideIndex = (activeIndex === slides.length - 1)
-    ? 0
-    : activeIndex + 1;
+    return () => clearInterval(interval);
+  }, [activeIndex, length]);
 
   return (
-    <div className="deal__slider slider">
-      <div
-        className="slider__slide slider__slide--prev"
-        key={prevSlideIndex}
-      >
-        {slides[prevSlideIndex]}
-      </div>
-      <div
-        className="slider__slide"
-        key={activeIndex}
-      >
-        {slides[activeIndex]}
-      </div>
-      <div
-        className="slider__slide slider__slide--next"
-        key={nextSlideIndex}
-      >
-        {slides[nextSlideIndex]}
-      </div>
+    <div className="deal-menu__slider slider">
+      <Slides
+        activeIndex={activeIndex}
+        slides={slides}
+      />
+      <Arrows
+        prevSlide={() => setActiveIndex(activeIndex < 1
+          ? length
+          : activeIndex - 1)
+        }
+        nextSlide={() => setActiveIndex(activeIndex === length
+          ? 0
+          : activeIndex + 1)
+        }
+      />
+      <Dots
+        activeIndex={activeIndex}
+        onClick={actIndex => setActiveIndex(actIndex)}
+        slides={slides}
+      />
     </div>
   );
 };
+
+Slider.propTypes = SliderType;

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { CurrentDeal } from '../CurrentDealCard';
+import { CurrentDealCard } from '../CurrentDealCard';
 import './CurrentDeals.scss';
 import { CurrentDealsType } from '../../Types';
+import { deals } from '../../api/current-deals';
 
-export const CurrentDeals = ({ deals }) => {
+export const CurrentDeals = ({ match }) => {
   const initiallyDisplayedDeals = deals.slice(0, 6);
   const [currentDeals, setCurrentDeals] = useState(initiallyDisplayedDeals);
 
@@ -24,9 +25,8 @@ export const CurrentDeals = ({ deals }) => {
     <div className="app__carrent-deals-page current-deals-page">
       <ul className="current-deals-page__current-deals current-deals">
         {currentDeals.map(deal => (
-          <CurrentDeal
-            key={deal.dealId}
-            deal={deal}
+          <CurrentDealCard
+            key={deal.id}
             mainTitle={deal.mainTitle}
             availableShares={deal.availableShares}
             shareholder={deal.shareholder}
@@ -35,6 +35,7 @@ export const CurrentDeals = ({ deals }) => {
             targetedAvarageCashYield={deal.targetedAvarageCashYield}
             distributionCommencement={deal.distributionCommencement}
             distributionPeriod={deal.distributionPeriod}
+            id={deal.id}
           />
         ))}
       </ul>

@@ -6,7 +6,6 @@ import { Header } from './components/Header';
 import { Login } from './components/Login';
 import { CurrentDeals } from './components/CurrentDeals';
 import { Deal } from './components/Deal';
-import { deals } from './api/current-deals';
 import './styles/general.scss';
 import './App.scss';
 
@@ -43,16 +42,14 @@ export const App = () => (
         </p>
       </Route>
 
-      <Route path="/deal">
+      <Route path="/current-deals/:dealId">
         <Deal />
       </Route>
 
-      <Route path="/" exact>
-        <CurrentDeals deals={deals} />
-      </Route>
+      <Route path="/current-deals/:dealId?" component={CurrentDeals} />
 
-      <Redirect path="/current-deals" to="/" />
-      <Redirect path="" to="/" />
+      <Redirect path="/" to="/current-deals" />
+      <Redirect path="" to="/current-deals" />
 
       <p className="app__empty-page">
         Not found page
