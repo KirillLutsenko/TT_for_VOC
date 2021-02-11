@@ -21,9 +21,11 @@
   text-align: center;
   
   &__title {
+    font-family: inherit;
     font-weight: 400;
     font-size: 36px;
     line-height: 42.19px;
+    text-transform: uppercase;
     color: $title-color;
     margin-bottom: 27px;
   }
@@ -55,11 +57,6 @@
     color: #fff;
     box-shadow: $box-shadow-hover-buttons;
   }
-
-  &:focus {
-    outline: none;
-    box-shadow: $box-shadow-hover-buttons;
-  }
 }
 
 .bottom-section {
@@ -75,14 +72,14 @@
   &__title {
     position: relative;
     margin: 16px 0 39px 74px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 28px;
     line-height: 32.81px;
     color: $title-color;
   }
 
   &__text {
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 14px;
     line-height: 24px;
   }
@@ -117,6 +114,61 @@
 
   &__title {
     text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: $main-color;
+  }
+}
+
+.table {
+  text-align: center;
+  color: $main-text-color;
+  margin-bottom: 210px;
+  border-spacing: 0;
+
+  &__header-item {
+    padding: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: $main-text-color;
+    border-collapse: collapse;
+    border-bottom: 1px solid $main-text-color; /* Параметры рамки */
+  }
+
+  &__body-item {
+    padding: 31px 0 25px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: $main-text-color;
+    border-collapse: collapse;
+    border-bottom: 0.5px solid rgba(116, 116, 116, 0.5);
+  }
+}
+
+.table-button {
+  width: 118.35px;
+  height: 30px;
+  text-align: center;
+  line-height: 18.75px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  background: $button-background-color;
+  color: #fff;
+  border-radius: 3px;
+  transition: $button-transition;
+
+  &:hover {
+    color: #fff;
+    box-shadow: $box-shadow-hover-buttons;
   }
 }
 

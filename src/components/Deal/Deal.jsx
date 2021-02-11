@@ -18,7 +18,7 @@ export const Deal = withRouter(
     }, [dealId]);
 
     if (!deal) {
-      return '';
+      return (<p className="app__empty-page">Loading</p>);
     }
 
     const { description } = deal.dealInfo;
@@ -173,22 +173,34 @@ export const Deal = withRouter(
           </h2>
 
           <table className="transactions__table table">
-            <thead>
-              <th>Advertiser</th>
-              <th>Available</th>
-              <th>Price</th>
-              <th>Accepted Currency</th>
-              <th>Trade</th>
+            <thead className="table__header-block">
+              <th className="table__header-item">Advertiser</th>
+              <th className="table__header-item">Available</th>
+              <th className="table__header-item">Price</th>
+              <th className="table__header-item">Accepted Currency</th>
+              <th className="table__header-item">Trade</th>
             </thead>
-            <tbody>
+            <tbody className="table__body-block">
               {transactions.map(transaction => (
-                <tr key={transaction.advertiser + transaction.available}>
-                  <td>{transaction.advertiser}</td>
-                  <td>{transaction.available}</td>
-                  <td>{transaction.price}</td>
-                  <td>{transaction.acceptedCurrency}</td>
-                  <td>
+                <tr
+                  key={transaction.advertiser + transaction.available}
+                  className="table__body-row"
+                >
+                  <td className="table__body-item">
+                    {transaction.advertiser}
+                  </td>
+                  <td className="table__body-item">
+                    {transaction.available}
+                  </td>
+                  <td className="table__body-item">
+                    {transaction.price}
+                  </td>
+                  <td className="table__body-item">
+                    {transaction.acceptedCurrency}
+                  </td>
+                  <td className="table__body-item">
                     <button
+                      className="table__table-button table-button"
                       type="button"
                     >
                       Buy

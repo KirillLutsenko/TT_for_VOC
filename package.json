@@ -1,16 +1,19 @@
 {
   "name": "TT_for_VOC",
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://KirillLutsenko.github.io/TT_for_VOC",
   "version": "0.1.0",
   "keywords": [],
   "author": "KirillLucenko",
   "license": "GPL-3.0",
   "dependencies": {
+    "classnames": "^2.2.6",
+    "hookrouter": "^1.2.5",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "redux": "^4.0.5"
   },
