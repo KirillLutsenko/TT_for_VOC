@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/TT_for_VOC/static/css/main.03588759.chunk.css",
-    "main.js": "/TT_for_VOC/static/js/main.16c83d8d.chunk.js",
-    "main.js.map": "/TT_for_VOC/static/js/main.16c83d8d.chunk.js.map",
+    "main.css": "/TT_for_VOC/static/css/main.c184464d.chunk.css",
+    "main.js": "/TT_for_VOC/static/js/main.880bbc2a.chunk.js",
+    "main.js.map": "/TT_for_VOC/static/js/main.880bbc2a.chunk.js.map",
     "runtime-main.js": "/TT_for_VOC/static/js/runtime-main.986102b9.js",
     "runtime-main.js.map": "/TT_for_VOC/static/js/runtime-main.986102b9.js.map",
-    "static/js/2.5060421f.chunk.js": "/TT_for_VOC/static/js/2.5060421f.chunk.js",
-    "static/js/2.5060421f.chunk.js.map": "/TT_for_VOC/static/js/2.5060421f.chunk.js.map",
+    "static/js/2.2027d013.chunk.js": "/TT_for_VOC/static/js/2.2027d013.chunk.js",
+    "static/js/2.2027d013.chunk.js.map": "/TT_for_VOC/static/js/2.2027d013.chunk.js.map",
     "index.html": "/TT_for_VOC/index.html",
-    "precache-manifest.aec767dd95c6b9ec9b30faeaaa481ec0.js": "/TT_for_VOC/precache-manifest.aec767dd95c6b9ec9b30faeaaa481ec0.js",
+    "precache-manifest.82cee853d51f3ad6b5f69140956d9181.js": "/TT_for_VOC/precache-manifest.82cee853d51f3ad6b5f69140956d9181.js",
     "service-worker.js": "/TT_for_VOC/service-worker.js",
-    "static/css/main.03588759.chunk.css.map": "/TT_for_VOC/static/css/main.03588759.chunk.css.map",
-    "static/js/2.5060421f.chunk.js.LICENSE.txt": "/TT_for_VOC/static/js/2.5060421f.chunk.js.LICENSE.txt",
-    "static/media/CurrentDealCard.scss": "/TT_for_VOC/static/media/card-img.ebea644f.png",
-    "static/media/photo_1.jpg": "/TT_for_VOC/static/media/photo_1.76741d85.jpg",
-    "static/media/photo_2.jpg": "/TT_for_VOC/static/media/photo_2.4ee79d91.jpg",
-    "static/media/photo_3.jpg": "/TT_for_VOC/static/media/photo_3.3b415dbe.jpg"
+    "static/css/main.c184464d.chunk.css.map": "/TT_for_VOC/static/css/main.c184464d.chunk.css.map",
+    "static/js/2.2027d013.chunk.js.LICENSE.txt": "/TT_for_VOC/static/js/2.2027d013.chunk.js.LICENSE.txt",
+    "static/media/CurrentDealCard.scss": "/TT_for_VOC/static/media/card-img.ebea644f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.986102b9.js",
-    "static/js/2.5060421f.chunk.js",
-    "static/css/main.03588759.chunk.css",
-    "static/js/main.16c83d8d.chunk.js"
+    "static/js/2.2027d013.chunk.js",
+    "static/css/main.c184464d.chunk.css",
+    "static/js/main.880bbc2a.chunk.js"
   ]
 }
