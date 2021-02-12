@@ -9,6 +9,9 @@ export const Login = () => {
   const [loginError, setLoginError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);
 
+  const passwordCheck = (password.trim().length >= 6) === true;
+  const loginCheck = (login.trim().length >= 4) === true;
+
   const resetForm = () => {
     setLogin('');
     setPassword('');
@@ -19,14 +22,14 @@ export const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (login.trim() && password.trim()) {
+    if (loginCheck && passwordCheck) {
       resetForm();
-    } else if (!login.trim() && !password.trim()) {
+    } else if (!loginCheck && !passwordCheck) {
       setLoginError(true);
       setPasswordError(true);
-    } else if (!login.trim()) {
+    } else if (!loginCheck) {
       setLoginError(true);
-    } else if (!password.trim()) {
+    } else if (!passwordCheck) {
       setPasswordError(true);
     }
   };
@@ -35,7 +38,7 @@ export const Login = () => {
     const { value } = event.target;
 
     setLogin(value);
-    if (value.length > 0) {
+    if (value.length > 3) {
       setLoginError(false);
     }
   };
@@ -44,7 +47,7 @@ export const Login = () => {
     const { value } = event.target;
 
     setPassword(value);
-    if (value.length > 0) {
+    if (value.length > 5) {
       setPasswordError(false);
     }
   };
@@ -69,7 +72,7 @@ export const Login = () => {
       />
       {loginError && (
         <p className="form__error">
-          Enter your login please
+          Password length minimum 4 characters
         </p>
       )}
 
@@ -89,7 +92,7 @@ export const Login = () => {
       />
       {passwordError && (
         <p className="form__error">
-          Enter your password please
+          Password length minimum 6 characters
         </p>
       )}
 

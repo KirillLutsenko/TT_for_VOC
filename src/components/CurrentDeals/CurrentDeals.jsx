@@ -22,7 +22,7 @@ export const CurrentDeals = ({ match }) => {
   };
 
   return (
-    <div className="app__carrent-deals-page current-deals-page">
+    <div className="app__current-deals-page current-deals-page">
       <ul className="current-deals-page__current-deals current-deals">
         {currentDeals.map(deal => (
           <CurrentDealCard

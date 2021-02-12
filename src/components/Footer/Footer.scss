@@ -40,7 +40,8 @@
     margin: 10px 34px 37px 3px;
     width: 147px;
     height: 27px;
-    background: url("../../images/footer/footer-logo.png");
+    background: url("../../images/footer/footer-logo.png") no-repeat;
+
   }
 
   &__description-section {
@@ -79,5 +80,47 @@
     &:hover {
       color: $link-hover-color;
     }
+  }
+}
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .footer-info {
+    padding-left: $middle-screen-side-padding;
+  
+    &__description,
+    &__license-and-adress {
+      font-size: 12px;
+    }
+  }
+  .product__item {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: $second-decrease-breakpoint) {
+  .footer-info {
+    &__portfolio {
+      font-size: 14px;
+      margin-right: 30px;
+      margin-bottom: 20px;
+    }
+
+    &__description,
+    &__license-and-adress {
+      font-size: 10px;
+      margin-right: 20px;
+    }
+
+    &__footer-logo {
+      display: block;
+      min-width: 147px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .product__title,
+  .about__title {
+    font-size: 14px;
   }
 }

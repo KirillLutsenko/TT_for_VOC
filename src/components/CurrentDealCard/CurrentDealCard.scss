@@ -106,3 +106,9 @@
     box-shadow: $box-shadow-hover-buttons;
   }
 }
+
+@media screen and (max-width: 1075px) {
+  .card {
+    margin: 0 30px 35px 0;
+  }
+}

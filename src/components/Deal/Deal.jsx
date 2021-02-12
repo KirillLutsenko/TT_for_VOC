@@ -65,9 +65,7 @@ export const Deal = withRouter(
         <div className="deal__bottom-section bottom-section">
           <div className="bottom-section__bottom-info bottom-info">
             <div className="bottom-info__description">
-              <h3 className="bottom-info__title">
-                Ariston Navigation
-              </h3>
+              <div className="bottom-info__title" />
 
               <div className="bottom-info__text">
                 <p className="bottom-info__paragraph">

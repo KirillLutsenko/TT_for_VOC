@@ -12,7 +12,7 @@ export const Header = () => (
         <li className="header-list__header-item header-item">
           <NavLink
             className="header-item__link"
-            to="/"
+            to="/current-deals"
             exact
             activeClassName="is-active"
           >

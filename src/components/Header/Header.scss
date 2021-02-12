@@ -78,3 +78,33 @@
   color: $link-hover-color;
   border-bottom: 3px solid $link-hover-color;
 }
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .header {
+    &__nav {
+      padding-left: $middle-screen-side-padding;
+    }
+
+    &__authorization {
+      padding-right: $middle-screen-side-padding;
+    }
+  }
+}
+
+@media screen and (max-width: $second-decrease-breakpoint) {
+  .header {
+    &__nav {
+      font-size: 12px;
+    }
+
+    &__authorization {
+      font-size: 13px;
+    }
+  }
+
+  .header-item {
+    &__link {
+      padding: 34px 17.5px 23px;
+    }
+  }
+}

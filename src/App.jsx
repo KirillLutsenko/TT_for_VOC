@@ -38,7 +38,7 @@ export const App = () => (
 
       <Route path="/sale-shares">
         <p className="app__empty-page">
-          No Sale Shares yet
+          Sale Shares page under development
         </p>
       </Route>
 

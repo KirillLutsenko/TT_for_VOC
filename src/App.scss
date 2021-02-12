@@ -5,6 +5,14 @@
     padding: $large-page-padding;
   }
 
+  &__login-page {
+    margin: auto;
+  }
+
+  &__account-page {
+    padding: $large-page-padding;
+  }
+
   &__footer {
     padding: $large-page-padding;
   }
@@ -13,5 +21,13 @@
     height: $height-for-small-pages;
     line-height: $height-for-small-pages;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .app {
+    &__current-deals-page {
+      padding: $middle-screen-padding;
+    }
   }
 }
