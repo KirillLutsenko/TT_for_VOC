@@ -2,7 +2,7 @@
 
 .account-page {
   display: flex;
-  margin: 56.4px 0 192px;
+  margin: 56.4px 0 270px;
 
   &__account-info {
     margin-left: 122px;
@@ -41,6 +41,11 @@
   &__link {
     display: block;
     position: relative;
+
+    &:focus {
+      outline: none;
+      transform: scale(1.05);
+    }
   }
 
   &__wallet {
@@ -221,5 +226,63 @@
   &:hover {
     color: #fff;
     box-shadow: $box-shadow-hover-buttons;
+  }
+}
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .account-page {
+    margin: 56.4px $middle-screen-side-padding 192px;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+  .account-page {
+    margin: 56.4px $middle-screen-side-padding 192px;
+  }
+
+  .account-info {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .left-inputs {
+    margin-right: 102px;
+  }
+  
+  .account-info {
+    &__info-form {
+      width: 600px;
+    }
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .inputs-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-inputs,
+  .right-inputs {
+    margin: 0;
+    text-align: center;
+  }
+
+  .left-inputs {
+    margin-top: 30px;
+  }
+
+  .right-inputs {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .account-info {
+    &__info-form {
+      width: 400px;
+    }
   }
 }

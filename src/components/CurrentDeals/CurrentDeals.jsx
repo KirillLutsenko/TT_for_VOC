@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { CurrentDealCard } from '../CurrentDealCard';
-import './CurrentDeals.scss';
 import { CurrentDealsType } from '../../Types';
 import { deals } from '../../api/current-deals';
+import './CurrentDeals.scss';
 
-export const CurrentDeals = ({ match }) => {
+export const CurrentDeals = () => {
   const initiallyDisplayedDeals = deals.slice(0, 6);
   const [currentDeals, setCurrentDeals] = useState(initiallyDisplayedDeals);
 

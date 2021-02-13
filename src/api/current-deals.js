@@ -15,22 +15,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -80,22 +80,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/a97d9b5e/21848505/720x510.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/79d09f42/21848502/720x510.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/246e6c99/21848498/720x510.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/9ffc12b1/21848495/720x510.jpg',
       },
@@ -145,22 +145,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/17ec07db/22272578/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/c6610c1d/22272576/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/9cdabf0a/22272579/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -210,22 +210,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -275,22 +275,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -340,22 +340,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -405,22 +405,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -470,22 +470,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -535,22 +535,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -600,22 +600,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -665,22 +665,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -730,22 +730,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -795,22 +795,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -860,22 +860,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -925,22 +925,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },
@@ -990,22 +990,22 @@ export const deals = [
     targetPortfolioCloseDate: 'August 16th, 2019',
     images: [
       {
-        id: '1',
+        imgId: '1',
         description: 'First slide',
         url: 'https://tranio.ru/photos/adt/0c2206d3/22276695/800x600.jpg',
       },
       {
-        id: '2',
+        imgId: '2',
         description: 'Second slide',
         url: 'https://tranio.ru/photos/adt/d02a1bf5/22276696/800x600.jpg',
       },
       {
-        id: '3',
+        imgId: '3',
         description: 'Third slide',
         url: 'https://tranio.ru/photos/adt/15660baa/22276697/800x600.jpg',
       },
       {
-        id: '4',
+        imgId: '4',
         description: 'Fourth slide',
         url: 'https://tranio.ru/photos/adt/c1214949/22276701/800x600.jpg',
       },

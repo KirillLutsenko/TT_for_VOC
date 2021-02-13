@@ -188,3 +188,61 @@
 .first-item {
   margin-top: 25px;
 }
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .deal {
+    padding: $middle-screen-padding;
+  }
+
+  .deal-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .deal-info {
+    margin-top: 120px;
+  }
+
+  .info-card {
+    margin: 65px 0 0 56px;
+    width: 387px;
+    height: 260px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .first-item {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1109px) {
+  .info-card {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .bottom-info {
+    &__paragraph {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .bottom-info {
+    &__description {
+      padding: 0 $middle-screen-side-padding;
+    }
+  }
+}

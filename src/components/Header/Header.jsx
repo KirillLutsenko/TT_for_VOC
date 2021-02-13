@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import './Header.scss';
 import { Link, NavLink } from 'react-router-dom';
+import './Header.scss';
 
 export const Header = () => (
   <header className="app__header header">

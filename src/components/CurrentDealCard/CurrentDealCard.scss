@@ -109,6 +109,18 @@
 
 @media screen and (max-width: 1075px) {
   .card {
-    margin: 0 30px 35px 0;
+    margin: 0 50px 35px 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .card {
+    margin: 0 10px 35px 0;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .card {
+    margin: 0 10px 35px;
   }
 }

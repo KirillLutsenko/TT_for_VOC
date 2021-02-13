@@ -72,7 +72,7 @@ export const Login = () => {
       />
       {loginError && (
         <p className="form__error">
-          Password length minimum 4 characters
+          Login length minimum 4 characters
         </p>
       )}
 

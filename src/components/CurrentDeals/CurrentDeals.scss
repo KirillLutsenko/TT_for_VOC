@@ -38,13 +38,33 @@
 @media screen and (max-width: 1075px) {
   .current-deals {
     justify-content: center;
+    padding: 60px 40px 46px;
   }
 
   .current-deals .card:nth-child(3n+3) {
-    margin-right: 30px;
+    margin-right: 50px;
   }
 
   .current-deals .card:nth-child(2n+2) {
-    margin-right: 0px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .current-deals {
+    justify-content: center;
+    padding: 60px 40px 46px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .current-deals .card:nth-child(3n+3) {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .current-deals .card:nth-child(3n+3) {
+    margin-right: 0;
   }
 }

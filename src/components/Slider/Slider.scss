@@ -82,3 +82,21 @@
 .inactive {
   display: none;
 }
+
+@media screen and (max-width: $first-decrease-breakpoint) {
+  .slider {
+    height: $big-slider-height / 1.3;
+    width: $big-slider-width / 1.3;
+  }
+
+  .arrows {
+    &__prev,
+    &__next {
+      top: 75%;
+    }
+  }
+
+  .dots {
+    top: 135%;
+  }
+}
