@@ -172,11 +172,13 @@ export const Deal = withRouter(
 
           <table className="transactions__table table">
             <thead className="table__header-block">
-              <th className="table__header-item">Advertiser</th>
-              <th className="table__header-item">Available</th>
-              <th className="table__header-item">Price</th>
-              <th className="table__header-item">Accepted Currency</th>
-              <th className="table__header-item">Trade</th>
+              <tr className="table__header-row">
+                <th className="table__header-item">Advertiser</th>
+                <th className="table__header-item">Available</th>
+                <th className="table__header-item">Price</th>
+                <th className="table__header-item">Accepted Currency</th>
+                <th className="table__header-item">Trade</th>
+              </tr>
             </thead>
             <tbody className="table__body-block">
               {transactions.map(transaction => (
