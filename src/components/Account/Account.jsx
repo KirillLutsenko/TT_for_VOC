@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import './Account.scss';
 
@@ -132,27 +131,45 @@ export const Account = () => {
 
         <ul className="navigation__nav-list nav-list">
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__wallet nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__wallet nav-item__link"
+            />
           </li>
 
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__statements nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__statements nav-item__link"
+            />
           </li>
 
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__transactions nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__transactions nav-item__link"
+            />
           </li>
 
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__manage nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__manage nav-item__link"
+            />
           </li>
 
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__contact-us nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__contact-us nav-item__link"
+            />
           </li>
 
           <li className="nav-list__nav-item nav-item">
-            <a href="#" className="nav-item__bank-account nav-item__link" />
+            <a
+              href="/account"
+              className="nav-item__bank-account nav-item__link"
+            />
           </li>
         </ul>
       </nav>
