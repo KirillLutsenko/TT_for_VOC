@@ -1,6 +1,3 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import { DotsType } from '../../Types';
 
@@ -13,7 +10,8 @@ export const Dots = ({ activeIndex, onClick, slides }) => (
           ? 'dots__dot dot active-dot'
           : 'dots__dot dot'}`
         }
-        onClick={event => onClick((event.target.value = index))}
+        onClick={() => onClick(index)}
+        role="presentation"
       />
     ))}
   </div>

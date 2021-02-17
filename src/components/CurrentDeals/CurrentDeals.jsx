@@ -27,20 +27,12 @@ export const CurrentDeals = () => {
         {currentDeals.map(deal => (
           <CurrentDealCard
             key={deal.id}
-            mainTitle={deal.mainTitle}
-            availableShares={deal.availableShares}
-            shareholder={deal.shareholder}
-            targetedInvestorIrr={deal.targetedInvestorIrr}
-            targetedEquityMultiple={deal.targetedEquityMultiple}
-            targetedAvarageCashYield={deal.targetedAvarageCashYield}
-            distributionCommencement={deal.distributionCommencement}
-            distributionPeriod={deal.distributionPeriod}
-            id={deal.id}
+            deal={deal}
           />
         ))}
       </ul>
 
-      {!(currentDeals.length === deals.length) ? (
+      {!(currentDeals.length === deals.length) && (
         <button
           className="current-deals-page__show-more show-more"
           type="button"
@@ -48,8 +40,6 @@ export const CurrentDeals = () => {
         >
           Show More
         </button>
-      ) : (
-        <div />
       )}
     </div>
   );

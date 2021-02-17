@@ -15,7 +15,7 @@ export const Account = () => {
   const [nameError, setNameError] = useState(false);
   const [lastNameError, setLastNameError] = useState(false);
 
-  const phoneValidationTrue = (phone.trim().length >= 10) === true;
+  const phoneValidationTrue = (phone.trim().length >= 10);
 
   const checkEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
   const emailValidationTrue = checkEmail.test(email)
@@ -23,10 +23,10 @@ export const Account = () => {
   const emailValidationFalse = !checkEmail.test(email)
     || email.trim().length < 7;
 
-  const passwordValidationTrue = (password.length >= 6) === true;
+  const passwordValidationTrue = (password.length >= 6);
 
-  const nameValidationTrue = (name.trim().length >= 2) === true;
-  const lastNameValidationTrue = (lastName.trim().length >= 2) === true;
+  const nameValidationTrue = (name.trim().length >= 2);
+  const lastNameValidationTrue = (lastName.trim().length >= 2);
 
   const resetForm = () => {
     setPhone('');

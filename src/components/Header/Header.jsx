@@ -6,7 +6,12 @@ import './Header.scss';
 export const Header = () => (
   <header className="app__header header">
     <nav className="header__nav nav">
-      <div className="nav__logo logo" />
+      <NavLink
+        to="/current-deals"
+        exact
+      >
+        <div className="nav__logo logo" />
+      </NavLink>
 
       <ul className="nav__header-list header-list">
         <li className="header-list__header-item header-item">

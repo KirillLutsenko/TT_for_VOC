@@ -9,8 +9,8 @@ export const Login = () => {
   const [loginError, setLoginError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);
 
-  const passwordCheck = (password.trim().length >= 6) === true;
-  const loginCheck = (login.trim().length >= 4) === true;
+  const passwordCheck = (password.trim().length >= 6);
+  const loginCheck = (login.trim().length >= 4);
 
   const resetForm = () => {
     setLogin('');

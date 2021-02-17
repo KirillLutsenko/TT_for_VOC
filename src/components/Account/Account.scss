@@ -246,8 +246,21 @@
 }
 
 @media screen and (max-width: 1099px) {
+  .user-info {
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+
+    &::after {
+      left: -22px;
+      top: 95px;
+      width: 150px;
+    }
+  }
+
   .left-inputs {
     margin-right: 102px;
+    margin-top: 30px;
   }
   
   .account-info {
@@ -255,27 +268,21 @@
       width: 600px;
     }
   }
-}
 
-@media screen and (max-width: 1099px) {
   .inputs-form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .right-inputs {
+    margin-bottom: 30px;
+  }
+
   .left-inputs,
   .right-inputs {
     margin: 0;
     text-align: center;
-  }
-
-  .left-inputs {
-    margin-top: 30px;
-  }
-
-  .right-inputs {
-    margin-bottom: 30px;
   }
 }
 
