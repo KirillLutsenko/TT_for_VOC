@@ -3,7 +3,7 @@
  [DEMO LINK](https://KirillLutsenko.github.io/TT_for_VOC/)
 
 **Description**
-- Tech stack: React(hooks, route), BEM, SCSS.
+- Tech stack: React(hooks, route), BEM, SASS.
 - Responsive layout to 768px (tablets, laptops, high screens).
 - All buttons and links are interactive
 - Design you can find [here](https://www.figma.com/file/z4X5Mk3Gq7kmNXbTig12Y5/VOC---marketplace?node-id=0:1)
